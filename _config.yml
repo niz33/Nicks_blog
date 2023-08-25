@@ -82,7 +82,7 @@ avatar: https://en.gravatar.com/userimage/233099474/4b0dfa71b38a461ccffaa7625667
 toc: true
 
 comments:
-  active: discus
+  active: disqus
   # The active options are as follows:
   disqus:
     shortname: https-niz33-github-io-nicks-blog-posts-test # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
