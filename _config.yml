@@ -20,10 +20,10 @@ timezone:
 
 title: Nick's Blog # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Some interesting stuff # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Some interesting stuff
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://niz33.github.io"
@@ -38,7 +38,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Nick Zhang
-  email: example@domain.com # change to your email address
+  email: nickzhangshaohuan$gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
@@ -73,16 +73,16 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://en.gravatar.com
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /userimage/233099474/4b0dfa71b38a461ccffaa76256677469.jpeg
+avatar: https://en.gravatar.com/userimage/233099474/4b0dfa71b38a461ccffaa76256677469.jpeg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
 
 comments:
-  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: true
   # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -92,10 +92,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: "niz33/Nicks_blog"
+    repo_id: "R_kgDOKLa4Ww"
+    category: "General"
+    category_id: "DIC_kwDOKLa4W84CY3FP"
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
